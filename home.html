@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>Color Picker</title>
+
+  </head>
+  <body id="bg">
+
+    <div class="container">
+
+      <div class="slider-box">
+
+        <div class="row text-white heading">
+          <div class="col">
+            <h1 class="text-center mt-3 mb-3">Color Picker</h1>
+          </div>
+        </div>
+
+
+        <div class="row pt-5">
+
+          <div class="col-sm-3">
+            <ul class="colors">
+              <li id="r">RED</li>
+              <li id="g">GREEN</li>
+              <li id="b">BLUE</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-7">
+            <ul class="sliders">
+              <li>
+                <input type="range" min="0" max="255" step="1" class="form-range" id="r_val" onchange="get_val()"></li>
+              <li><input type="range" min="0" max="255" step="1" class="form-range" id="g_val" onchange="get_val()"></li>
+              <li><input type="range" min="0" max="255" step="1" class="form-range" id="b_val" onchange="get_val()"></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2 pl-0 ml-0">
+            <ul>
+              <li id="r-d">128</li>
+              <li id="g-d">128</li>
+              <li id="b-d">128</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  <script type="text/javascript" src="master.js"></script>
+
+  </body>
+</html>

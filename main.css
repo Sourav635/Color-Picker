@@ -1,0 +1,53 @@
+*{
+  overflow:hidden;
+}
+
+#bg{
+  background-color: pink;
+}
+
+.container{
+  max-width: 700px;
+}
+
+.slider-box {
+  background-color:#e8e8e8;
+  margin-top:5em;
+  border: 5px solid white;
+}
+
+.heading{
+  background-color: black;
+}
+
+.form-range{
+  width:100%;
+}
+
+li{
+  margin-bottom: 3em;
+}
+
+.colors{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+#r {
+  background-color: rgb(255,0,0) ;
+  text-align: center;
+  color: white;
+  padding: 1.5px;
+}
+#g {
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+#b {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
